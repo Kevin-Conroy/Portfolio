@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Responsive Navigation</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <header>
+		<h1>Kevin Conroy</h1>
+     <nav>
+			<ul id="menu">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About Me</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<div class="wrapper">
+
+			<article id="home">
+				<div class='group'>
+					<div class='item'>
+						<img src="images/KCpic (2).jpg" alt="KC profile picture" class="image-style"> 
+				</div>
+        <div class='item'>
+          <p class="intro">Hi. Welcome to my portfolio!</p>
+					<p>I'm glad you decided to check out my page! I created this so I would have a place for people to check out what I am learning.</p>
+          <p>Recently I enrolled in Thinkful's web development course. It's been a great learning experience so far! I've been studying & doing all of my work remotely from Los Angeles, CA.</p>
+				</div>
+			</div>
+      </article>
+		</div>
+
+      <section id="about">
+        <div class="wrapper">
+        	<h2>About Kevin</h2>
+			<div class='group'>
+				<div class='item-double'>
+          <p>I have been a musician almost all of my life. I found that while touring I seemed to have SO MUCH downtime day-to-day. I was introduced to the world of coding by a family member in 2019 and I haven't stopped learning since!</p>
+
+          <p>I am excited to dive deeper into programming professionally. Being a musician I am almost always working & collaborating with others, and I look forward to doing the same in a development atmosphere! I already have friends who are excited for me to graduate so I can get working on their websites!
+				</div>
+        	<div class='item'>
+<img src="images/Drum.jpg" alt="Drum" class="rounded"> 
+					
+				</div>
+			</div>
+      </div>
+      </article>
+
+
+<div class="wrapper">
+      <article id="portfolio">
+      <h2>Portfolio</h2>
+			<div class='group'>
+				<div class='item'>
+          <img src="images/App-pic.jpg" alt="Babysitter app screenshot" class="rounded">
+          <h3>Babysitter Finder</h3>
+					<p>This is an app I developed to find babysitters in your area. The user can put in their location information as well as some information about their child and this will help pair them with a babysitter!</p>
+				</div>
+				<div class='item'>
+          <img src="images/App-pic.jpg" alt="Calorie app screenshot" class="rounded">
+          <h3>Calorie Tracker</h3>
+					<p>Here is an app I developed to help people who are dieting. I have a vast database of various foods & brands. The user can search for exactly what they've eaten and save their information day-to-day to help track what works & what does not.</p>
+				</div>
+				<div class='item'>
+          <img src="images/App-pic.jpg" alt="DogWalker app screenshot" class="rounded">
+          <h3>Dog Walker Finder</h3>
+					<p>Here is an app I created for dog owners like myself! The user can put in their location information as well as some information about their pet and be matched up with a dog walker that fits their needs.</p>
+				</div>
+			</div>
+      </article>
+    
+      <article id="contact">
+         <h2>Get In Touch</h2>
+			    <div class='contact-align' 'group'>
+            <h3>Please feel free to reach out!</h3>
+				</div>
+				<div class='contact-align' 'item'>
+					<p>Ph: 732-207-4352</p>
+          <p>Email: <a href="mailto:kcdrumming@gmail.com">kcdrumming@gmail.com</a></p>
+          <p>Check out my <a href="https://github.com/Kevin-Conroy">GitHub</a> page</p>
+          <p>Connect via <a href="https://www.linkedin.com/in/kevin-conroy-543435b5/">LinkedIn</a></p>
+           
+				
+        
+      <p>Or send me a message right here!</p>
+     </div> 
+    <div class="group">
+      <div class="item-double">
+        <form action="#" method="POST">
+          <label for="user-name">Name:</label>
+          <input id="user-name" type="text" name="name">
+
+          <label for="user-email">Email:</label>
+          <input id="user-email" type="text" name="email">
+
+          <label for="user-message">Message:</label>
+          <textarea id="user-message" name="message"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+			</div>
+      </article>
+
+
+
+		</div>
+	</main>
+
+   <script src="script.js">
+	</script>
+</body>
+
+</html>
