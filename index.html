@@ -1,203 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Kevin Conroy's Portfolio</title>
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-
-  <body>
-    <header>
-      <h1>Kevin Conroy</h1>
-      <nav>
-        <ul id="menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <main>
-      <div class="wrapper">
-        <article id="home">
-          <div class="group">
-            <div class="img">
-              <img
-                src="images/KCpicMain.jpg"
-                alt="KC profile picture"
-                class="img"
-              />
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width" />
+      <title>Kevin Conroy's Portfolio</title>
+      <link
+         href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+         rel="stylesheet"
+         type="text/css"
+         />
+      <link href="style.css" rel="stylesheet" type="text/css" />
+   </head>
+   <body>
+      <header>
+         <h1>Kevin Conroy</h1>
+         <nav>
+            <ul id="menu">
+               <li><a href="#home">Home</a></li>
+               <li><a href="#about">About Me</a></li>
+               <li><a href="#portfolio">Portfolio</a></li>
+               <li><a href="#contact">Contact</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main>
+         <div class="wrapper">
+            <article id="home">
+               <div class="group">
+                  <div class="img">
+                     <img
+                        src="images/KCpicMain.jpg"
+                        alt="KC profile picture"
+                        class="img"
+                        />
+                  </div>
+                  <div class="item">
+                     <p class="intro">Welcome</p>
+                     <p>
+                        I'm glad you decided to check out my page. I created this so I
+                        would have a place for people to check out what I've been
+                        working on.
+                     </p>
+                  </div>
+               </div>
+            </article>
+         </div>
+         <section id="about">
+            <div class="wrapper">
+               <h2>About Kevin</h2>
+               <div class="group">
+                  <div class="item-double">
+                     <p>
+                        I have been a musician almost all of my life. I found that while
+                        touring I seemed to have SO MUCH downtime day-to-day. I was
+                        introduced to the world of coding by a family member in 2019 and
+                        I haven't stopped learning since!
+                     </p>
+                     <p>
+                        I am excited to dive deeper into programming professionally.
+                        Being a musician I am almost always working & collaborating with
+                        others, and I look forward to doing the same in a development
+                        atmosphere! I already have friends who are excited for me to
+                        graduate so I can get working on their websites! In addition to
+                        building websites, I want to help develop custom apps & web
+                        features my clients can implement to help maximize efficiency &
+                        problem solve on-the-fly.
+                     </p>
+                  </div>
+                  <div class="item">
+                     <img
+                        src="images/Drum.jpg"
+                        height="200"
+                        width="200"
+                        alt="Drum"
+                        class="rounded"
+                        />
+                  </div>
+               </div>
             </div>
-            <div class="item">
-              <p class="intro">Welcome</p>
-              <p>
-                I'm glad you decided to check out my page. I created this so I
-                would have a place for people to check out what I've been
-                working on.
-              </p>
+         </section>
+         <div class="wrapper">
+            <article id="portfolio">
+               <h1>Projects</h1>
+               <hr class="new5">
+               <div class="group">
+                  <div>
+                     <h2>Food On Tour</h2>
+                     <div class="content">
+                        <img src="images/FOT_Signup.jpg" alt="Signup Form" />
+                        <img src="images/FOT_Search.jpg" alt="Search" />
+                        <img src="images/FOT_Rec.jpg" alt="Recommendations" />
+                     </div>
+                     <div class="box">
+                        <p>
+                           Food On Tour was created by a musician for other touring
+                           musicians. I wanted to create a simple one-stop hub for great
+                           food to find around the world while on tour. Users can create
+                           a profile, begin sharing their recommendations, build up a
+                           bucket list, and check out other users' profiles with all of
+                           their go-to's as well. Here is the
+                           <a target="_blank"
+                              href="https://food-on-tour-client-kevin-conroy.vercel.app/"
+                              >
+                           live app</a
+                              >
+                           for you to try out. And here is the
+                           <a target="_blank" href="https://github.com/Kevin-Conroy/food-on-tour-client">Github repo</a
+                              >. The client was build using React, Javascript, HTML, and
+                           CSS. The API was built using Express, Node, PostgreSQL.
+                        </p>
+                     </div>
+                     <hr class="new5">
+                     <h2>Practice Pal</h2>
+                     <div class="content">
+                        <img src="images/IMG_8982.jpg" alt="Welcome" />
+                        <img src="images/IMG_8984.jpg" alt="Exercises" />
+                        <img src="images/IMG_8985.jpg" alt="Edit Exercises" />
+                     </div>
+                     <div class="box">
+                        <p>I created practice pal for people like me who sometimes get a bit 
+                           too busy to keep track of the smaller details in life. Practice Pal
+                           is an app that allows drummers or guitar players to build up a list 
+                           of exercises to practice and keep close track of their 
+                           progress along the way. Here is the  <a href="https://practice-pal-client-kevin-conroy.vercel.app/">
+                           live link</a> and here is the
+                           <a href="https://github.com/Kevin-Conroy/Practice-Pal-Client">Github repo.</a> The client was build using 
+                           React, Javascript, HTML, and
+                           CSS. The API was built using Express, Node, PostgreSQL.
+                        </p>
+                     </div>
+                     <hr class="new5">
+                     <h2>Noteful</h2>
+                     <div class="content">
+                        <img src="images/IMG_8986.jpg" alt="Noteful" />
+                        <img src="images/IMG_8987.jpg" alt="Noteful" />
+                        <img src="images/IMG_8988.jpg" alt="Noteful" />
+                     </div>
+                     <div class="box">
+                        <p>Noteful is an aptly named application. Users can build up various titled folders,
+                           and place relevant notes in each folder. It has replaced the pencil & post-it note 
+                           I usually carry to the grocery store, and has made life a lot easier (and my pockets a little roomier!)
+                           Here is the
+                           <a href="https://github.com/Kevin-Conroy/thinkful-noteful-client">
+                           GitHub Repo</a
+                              >. And here is a
+                           <a href="https://noteful-client-khaki.vercel.app/">link</a> to try it out
+                           for yourself! The client was built with React, JavaScript, HTML, and CSS. 
+                           The API was built using Express, Node, and PostgreSQL.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </article>
+         </div>
+         <hr class="new5">
+         <article id="contact">
+            <h2>Please feel free to reach out!</h2>
+            <div class="group">
+               <div class="contact-align">
+                  <div class="item">
+                     <p>Ph: 732-207-4352</p>
+                     <p>
+                        Email:
+                        <a href="mailto:kcdrumming@gmail.com">kcdrumming@gmail.com</a>
+                     </p>
+                     <p>
+                        Check out my
+                        <a href="https://github.com/Kevin-Conroy">GitHub</a> page
+                     </p>
+                     <p>
+                        Connect via
+                        <a href="https://www.linkedin.com/in/kevin-conroy-543435b5/"
+                           >LinkedIn</a
+                           >
+                     </p>
+                     <p>Or send me a message right here!</p>
+                  </div>
+               </div>
             </div>
-          </div>
-        </article>
-      </div>
-
-      <section id="about">
-        <div class="wrapper">
-          <h2>About Kevin</h2>
-          <div class="group">
-            <div class="item-double">
-              <p>
-                I have been a musician almost all of my life. I found that while
-                touring I seemed to have SO MUCH downtime day-to-day. I was
-                introduced to the world of coding by a family member in 2019 and
-                I haven't stopped learning since!
-              </p>
-
-              <p>
-                I am excited to dive deeper into programming professionally.
-                Being a musician I am almost always working & collaborating with
-                others, and I look forward to doing the same in a development
-                atmosphere! I already have friends who are excited for me to
-                graduate so I can get working on their websites! In addition to
-                building websites, I want to help develop custom apps & web
-                features my clients can implement to help maximize efficiency &
-                problem solve on-the-fly.
-              </p>
+            <div class="group">
+               <div class="item-double">
+                  <form action="https://formspree.io/f/mpzoljgl" method="POST">
+                     <label>
+                     Your email:
+                     <input type="text" name="_replyto" />
+                     </label>
+                     <label>
+                     Your message:
+                     <textarea name="message"></textarea>
+                     </label>
+                     <!-- your other form fields go here -->
+                     <button type="submit">Send</button>
+                  </form>
+               </div>
             </div>
-
-            <div class="item">
-              <img
-                src="images/Drum.jpg"
-                height="200"
-                width="200"
-                alt="Drum"
-                class="rounded"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div class="wrapper">
-        <article id="portfolio">
-          <h1>Projects</h1>
-          <div class="group">
-            <div>
-              <h3>Food On Tour</h3>
-              <div id="content">
-                <img src="images/FOT_Signup.jpg" alt="Signup Form" />
-                <img src="images/FOT_Search.jpg"alt="Search" />
-                <img src="images/FOT_Rec.jpg" alt="Recommendations" />
-             </div>
-              <div class="row">
-                <p>
-                  Food On Tour was created by a musician for other touring
-                  musicians. I wanted to create a simple one-stop hub for great
-                  food to find around the world while on tour. Users can create
-                  a profile, begin sharing their recommendations, build up a
-                  bucket list, and check out other users' profiles with all of
-                  their go-to's as well. Here is the
-                  <a target="_blank"
-                    href="https://food-on-tour-client-kevin-conroy.vercel.app/"
-                  >
-                    live app</a
-                  >
-                  for you to try out. And here is the
-                  <a target="_blank" href="https://github.com/Kevin-Conroy/food-on-tour-client">Github repo</a
-                  >. The client was build using React, Javascript, HTML, and
-                  CSS. The API was built using Express, Node, PostgreSQL.
-                </p>
-              </div>
-          
-            <h3>Practice Pal</h3>
-            <div id="content">
-              <img src="images/IMG_8982.jpg" alt="Welcome" />
-              <img src="images/IMG_8984.jpg"alt="Exercises" />
-              <img src="images/IMG_8985.jpg" alt="Edit Exercises" />
-           </div>
-            <p>I created practice pal for people like me who sometimes get a bit 
-			   too busy to keep track of the smaller details in life. Practice Pal
-			   is an app that allows drummers or guitar players to build up a list 
-			   of exercises to practice and keep close track of their 
-			   progress along the way. Here is the  <a href="https://practice-pal-client-kevin-conroy.vercel.app/">
-               live link</a> and here is the
-              <a href="https://github.com/Kevin-Conroy/Practice-Pal-Client">Github repo.</a> The client was build using 
-			  React, Javascript, HTML, and
-			  CSS. The API was built using Express, Node, PostgreSQL.
-            </p>
-    
-            <h3>Noteful</h3>
-            <div id="content">
-              <img src="images/IMG_8986.jpg" alt="Noteful" />
-              <img src="images/IMG_8987.jpg"alt="Noteful" />
-              <img src="images/IMG_8988.jpg" alt="Noteful" />
-           </div>
-            <p>Noteful is an aptly named application. Users can build up various titled folders,
-              and place relevant notes in each folder. It has replaced the pencil & post-it note 
-              I usually carry to the grocery store, and has made life a lot easier (and my pockets a little roomier!)
-              Here is the
-              <a href="https://github.com/Kevin-Conroy/thinkful-noteful-client">
-                GitHub Repo</a
-              >. And here is a
-              <a href="https://noteful-client-khaki.vercel.app/">link</a> to try it out
-              for yourself! The client was built with React, JavaScript, HTML, and CSS. 
-              The API was built using Express, Node, and PostgreSQL.
-            </p>
-          </div>
-        </article>
-      </div>
-    </div>
-      <article id="contact">
-        <h2>Please feel free to reach out!</h2>
-        <div class="group">
-          <div class="contact-align">
-            <div class="item">
-              <p>Ph: 732-207-4352</p>
-              <p>
-                Email:
-                <a href="mailto:kcdrumming@gmail.com">kcdrumming@gmail.com</a>
-              </p>
-              <p>
-                Check out my
-                <a href="https://github.com/Kevin-Conroy">GitHub</a> page
-              </p>
-              <p>
-                Connect via
-                <a href="https://www.linkedin.com/in/kevin-conroy-543435b5/"
-                  >LinkedIn</a
-                >
-              </p>
-
-              <p>Or send me a message right here!</p>
-            </div>
-          </div>
-        </div>
-        <div class="group">
-          <div class="item-double">
-            <form action="https://formspree.io/f/mpzoljgl" method="POST">
-              <label>
-                Your email:
-                <input type="text" name="_replyto" />
-              </label>
-              <label>
-                Your message:
-                <textarea name="message"></textarea>
-              </label>
-
-              <!-- your other form fields go here -->
-
-              <button type="submit">Send</button>
-            </form>
-          </div>
-        </div>
-      </article>
-    </main>
-  </body>
+         </article>
+      </main>
+   </body>
 </html>
