@@ -3,17 +3,29 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-img {
-  width: 100%;
-  size: 50px;
+.img {
+
+  width: 50%;
+  size: 10px;
+  align-items: center;
+  display: flex
 }
 
 img.rounded {
   border-radius: 8px;
 }
 
+main h1 {
+  font-size: 36px;
+  letter-spacing: 2px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
 main h2 {
   font-size: 28px;
+  letter-spacing: 2px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 400;
   text-align: center;
@@ -21,13 +33,33 @@ main h2 {
 
 main h3 {
   font-size: 22px;
+  letter-spacing: 2px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   text-align: center;
 }
 
 main p {
+ font-size: 18px;
+ letter-spacing: 2px;
  font-family: Arial, Helvetica, sans-serif
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
 
 /* Header */
@@ -41,6 +73,7 @@ header {
 header h1 {
   color: #eff0e5;
   text-align: center;
+  letter-spacing: 2px;
   margin: 0;
   padding: 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -78,6 +111,7 @@ main  .wrapper  h2 {
 
 main .intro {
   font-size: 24px;
+  letter-spacing: 2px;
   color: #57440f;
 }
 
@@ -88,7 +122,8 @@ main .intro {
 
 .group {
   display: flex;
-  flex-direction: column;
+  
+
 }
 
 .item {
@@ -145,4 +180,15 @@ form textarea {
   background-color: bisque;
   padding: 10px 0 20px 0;
   margin: 100px 0;
+}
+
+#content{
+  width: 700px;
+  display: block;
+  height: auto;
+}
+#content > img{
+ float: left; width: 200px;
+ height: 200px;
+ margin: 5px 8px;
 }
